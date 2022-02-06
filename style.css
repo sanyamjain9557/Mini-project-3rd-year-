@@ -1,0 +1,405 @@
+                    :root {
+                       --yellow: #f9d806;
+                       --light-yellow: #ffee80;
+                       --black: #1500fd;
+                       --light-color: rgb(22, 22, 22);
+                       --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+                       --border: .1rem solid rgba(0, 0, 0, .1);
+                   }
+                   
+                   * {
+                       font-family: 'Poppins', sans-serif;
+                       margin: 0;
+                       padding: 0;
+                       box-sizing: border-box;
+                       outline: none;
+                       border: none;
+                       text-decoration: none;
+                       transition: .2s linear;
+                   }
+                   
+                   body {
+                       font-family: 'Poppins', sans-serif;
+                   }
+                   
+                   html {
+                       font-size: 62.5%;
+                       overflow-x: hidden;
+                       scroll-padding-top: 7rem;
+                       scroll-behavior: smooth;
+                   }
+                   
+                   section {
+                       padding: 2rem 9%;
+                   }
+                   
+                   header .carousel-inner .item {
+                       height: 100vh;
+                   }
+                   
+                   .navbar-inverse {
+                       background-color: transparent;
+                       border-color: transparent;
+                   }
+                   
+                   .navbar-inverse .navbar-brand {
+                       color: #fff;
+                       font-size: 40px;
+                       padding: 40px 15px;
+                       font-weight: 900;
+                   }
+                   
+                   .nav.navbar-nav.navbar-right {
+                       margin: 25px 0;
+                   }
+                   
+                   .navbar-inverse .navbar-nav>li>a {
+                       color: #fff;
+                       text-transform: uppercase;
+                   }
+                   
+                   .navbar-inverse .navbar-nav>li>a:hover {
+                       color: #EDBB00;
+                       border-bottom: solid 3px #EDBB00;
+                   }
+                   
+                   .navbar-brand span {
+                       color: #EDBB00;
+                   }
+                   
+                   .navbar-fixed-top.scrolled {
+                       background-color: rgb(102, 96, 96) !important;
+                       transition: background-color 200ms linear;
+                   }
+                   
+                   .banner {
+                       -webkit-background-size: cover;
+                       background-size: cover;
+                       background-position: center center;
+                       background-repeat: no-repeat;
+                       height: 80vh;
+                   }
+                   
+                   .hero {
+                       width: 100%;
+                   }
+                   
+                   .text {
+                       width: 100%;
+                   }
+                   
+                   .image-info {
+                       width: 100%;
+                   }
+                   
+                   .hero .text h2 {
+                       padding: 10px 10px 5px;
+                       font-size: 2.8rem;
+                   }
+                   
+                   .hero h3 {
+                       color: grey;
+                       font-size: 2rem;
+                   }
+                   
+                   .hero img {
+                       width: 100%;
+                       border-radius: 2rem;
+                   }
+                   
+                   .hero .container2 img {
+                       height: 80%;
+                   }
+                   
+                   .hero a {
+                       color: #EDBB00;
+                       text-decoration: none;
+                   }
+                   
+                   .hero span {
+                       color: #EDBB00;
+                   }
+                   
+                   .carousel-caption {
+                       padding-bottom: 250px;
+                       font-family: poppins;
+                   }
+                   
+                   .carousel-caption h2 {
+                       font-size: 7.5rem;
+                       text-transform: uppercase;
+                       font-weight: bold;
+                   }
+                   
+                   .carousel-caption h2 span {
+                       color: #EDBB00;
+                   }
+                   
+                   .carousel-caption a {
+                       background: #EDBB00;
+                       padding: 15px 35px;
+                       display: inline-block;
+                       margin-top: 15px;
+                       color: #fff;
+                       text-transform: uppercase;
+                       border-radius: 25px;
+                   }
+                   
+                   .carousel-control.right {
+                       background-image: none;
+                   }
+                   
+                   .carousel-control.left {
+                       background-image: none;
+                   }
+                   
+                   .carousel-indicators .active {
+                       background-color: #EDBB00;
+                       border-color: #EDBB00;
+                   }
+                   
+                   .reviews .review-slider {
+                       padding-bottom: 3rem;
+                   }
+                   
+                   .reviews .review-slider .box {
+                       text-align: center;
+                       padding: 2rem;
+                       margin: 2rem 0;
+                       opacity: .4;
+                       transform: scale(.9);
+                   }
+                   
+                   .reviews .review-slider .swiper-slide-active {
+                       opacity: 1;
+                       transform: scale(1);
+                       box-shadow: var(--box-shadow);
+                       border: var(--border);
+                       border-radius: .5rem;
+                   }
+                   
+                   .reviews .review-slider .box img {
+                       height: 7rem;
+                       width: 7rem;
+                       border-radius: 50%;
+                       object-fit: cover;
+                   }
+                   
+                   .reviews .review-slider .box .content p {
+                       color: var(--light-color);
+                       font-size: 1.4rem;
+                       padding: 1rem 0;
+                   }
+                   
+                   .reviews .review-slider .box .content h3 {
+                       color: var(--black);
+                       font-size: 2.2rem;
+                       padding-bottom: .5rem;
+                   }
+                   
+                   .heading {
+                       padding-bottom: 2rem;
+                       text-align: center;
+                       font-size: 4.5rem;
+                       color: grey;
+                   }
+                   
+                   .heading span {
+                       color: #EDBB00;
+                   }
+                   
+                   .contact .row {
+                       display: flex;
+                       flex-wrap: wrap;
+                       gap: 1.5rem;
+                   }
+                   
+                   .contact .row .map {
+                       flex: 1 1 42rem;
+                       width: 100%;
+                       padding: 2rem;
+                       box-shadow: var(--box-shadow);
+                       border: var(--border);
+                       border-radius: .5rem;
+                   }
+                   
+                   .contact .row form {
+                       padding: 2rem;
+                       flex: 1 1 42rem;
+                       box-shadow: var(--box-shadow);
+                       border: var(--border);
+                       text-align: center;
+                       border-radius: .5rem;
+                   }
+                   
+                   .contact .row form h3 {
+                       font-size: 3rem;
+                       color: var(--black);
+                       padding-bottom: 1rem;
+                   }
+                   
+                   .contact .row form .box {
+                       width: 100%;
+                       border-radius: .5rem;
+                       padding: 1rem 1.2rem;
+                       font-size: 1.6rem;
+                       text-transform: none;
+                       border: var(--border);
+                       margin: .7rem 0;
+                   }
+                   
+                   .contact .row form textarea {
+                       height: 15rem;
+                       resize: none;
+                   }
+                   
+                   .footer {
+                       background: var(--light-yellow);
+                       padding-bottom: 8rem;
+                   }
+                   
+                   .footer .box-container {
+                       display: grid;
+                       grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+                       gap: 1.5rem;
+                   }
+                   
+                   .footer .box-container .box h3 {
+                       font-size: 2.2rem;
+                       padding: 1rem 0;
+                       color: var(--black);
+                   }
+                   
+                   .footer .box-container .box a {
+                       display: block;
+                       font-size: 1.4rem;
+                       padding: 1rem 0;
+                       color: var(--light-color);
+                   }
+                   
+                   .footer .box-container .box a i {
+                       padding-right: .5rem;
+                       color: var(--black);
+                   }
+                   
+                   .footer .box-container .box a:hover i {
+                       padding-right: 2rem;
+                   }
+                   /*responsive css*/
+                   
+                   @media only screen and (min-width: 768px) and (max-width: 991px) {
+                       .carousel-caption {
+                           padding-bottom: 350px;
+                       }
+                       .carousel-caption h2 {
+                           font-size: 50px;
+                       }
+                       @media only screen and (max-width: 767px) {
+                           .navbar-inverse .navbar-brand {
+                               font-size: 30px;
+                               padding: 20px 15px;
+                           }
+                           .navbar-collapse {
+                               background: rgba(0, 0, 0, 0.5);
+                           }
+                           .carousel-caption {
+                               padding-bottom: 120px;
+                           }
+                           .carousel-caption h2 {
+                               font-size: 2.5rem;
+                           }
+                           .carousel-caption h3 {
+                               font-size: 1.5rem;
+                           }
+                           .carousel-caption a {
+                               padding: 10px 25px;
+                           }
+                       }
+                   }
+                   
+                   @media only screen and (min-width: 768px) {
+                       .hero {
+                           width: 600px;
+                           margin: 0 auto;
+                       }
+                       .hero .text h2 {
+                           padding: 10px 0px 0px;
+                       }
+                       .hero h3 {
+                           padding: 10px 0px 0px;
+                       }
+                       .hero img {
+                           padding-top: 30px;
+                       }
+                       .hero .container2 img {
+                           width: 55%;
+                       }
+                   }
+                   
+                   @media only screen and (min-width: 1200px) {
+                       .hero {
+                           width: 100%;
+                           height: 100vh;
+                           margin-top: 100px;
+                       }
+                       .container1 {
+                           width: 50%;
+                           height: 50vh;
+                           margin: auto;
+                           margin-bottom: 100px;
+                       }
+                       .container2 {
+                           width: 50%;
+                           height: 50vh;
+                           margin: auto;
+                           display: flex;
+                       }
+                       .hero .container1 img {
+                           width: 60rem;
+                           height: 30rem;
+                           border-radius: 20px;
+                           position: absolute;
+                           top: 105%;
+                           left: 46%;
+                       }
+                       .hero .container1 .text {
+                           width: 100%;
+                           height: 30%;
+                       }
+                       .hero .container1 h3 {
+                           width: 40%;
+                           font-size: 2.5rem;
+                       }
+                       .hero .container1 .img {
+                           width: 100%;
+                           height: 100%;
+                           display: flex;
+                       }
+                       .hero .container2 img {
+                           width: 25rem;
+                           height: 35rem;
+                           border-radius: 20px;
+                           margin-left: 60%;
+                       }
+                       .hero .container2 .text {
+                           width: 60%;
+                           height: 100%;
+                       }
+                       .hero .container2 h3 {
+                           color: grey;
+                           font-size: 2.5rem;
+                       }
+                       .hero a {
+                           text-decoration: none;
+                           color: #EDBB00;
+                       }
+                   }
+                   
+                   @media only screen and (max-width: 500px) {
+                       .carousel-caption h2 {
+                           font-size: 45px;
+                       }
+                       .carousel-caption h3 {
+                           font-size: 30px;
+                       }
+                   }
